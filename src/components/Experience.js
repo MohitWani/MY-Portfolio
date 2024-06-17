@@ -1,0 +1,13 @@
+// src/components/Experience.js
+import React from 'react';
+
+const Experience = () => {
+  return (
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>Details about your professional experience.</p>
+    </section>
+  );
+};
+
+export default Experience;

@@ -1,0 +1,23 @@
+/* src/components/Home.css */
+.animated-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .animated-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: rotate 5s infinite linear;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

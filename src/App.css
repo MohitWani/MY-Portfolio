@@ -5,6 +5,9 @@ body {
   padding: 0;
 }
 
+#home, #about, #skills, #experience, #projects {
+  padding-top: 80px; /* Adjust to ensure content is not hidden under the navbar */
+}
 nav {
   background-color: #333;
   padding: 10px;

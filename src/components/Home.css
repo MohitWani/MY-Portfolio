@@ -1,23 +1,77 @@
 /* src/components/Home.css */
-.animated-photo {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .animated-photo img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    animation: rotate 5s infinite linear;
-  }
-  
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 20px;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin-top: 0; /* Remove top margin to eliminate gap */
+}
+
+.home-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; /* Center text horizontally */
+}
+
+.home-left h1 {
+  font-size: 4em; /* Increase font size */
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.home-left .highlight {
+  color: #007BFF; /* Highlight color */
+}
+
+.home-left .contact-button {
+  margin-top: 20px;
+  padding: 10px 20px; /* Adjust padding to make the button fit the text */
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em; /* Adjust font size */
+  border-radius: 5px;
+  width: auto; /* Ensure the button width fits the text */
+}
+
+.home-left .social-links {
+  margin-top: 20px;
+}
+
+.home-left .social-links a {
+  margin-right: 15px;
+  color: black;
+  font-size: 1.5em;
+}
+
+.home-left .social-links a:hover {
+  color: #007BFF; /* Highlight color */
+}
+
+.home-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-right .image-container {
+  width: 400px; /* Increase width */
+  height: 400px; /* Increase height */
+  background-color: #007BFF;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-right .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

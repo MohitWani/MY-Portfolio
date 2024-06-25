@@ -5,9 +5,9 @@
 
 .home {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   background-color: #f0f0f0;
   margin: 0; /* Remove top margin to eliminate gap */
 }
@@ -17,9 +17,9 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;/* Center text horizontally */
-  margin-left: 0px;
-  padding-left: 100px;
+  justify-content: right;/* Center text horizontally */
+  margin-left: 20px;
+  padding-left: 20%;
 }
 
 .home-left h1 {
@@ -74,15 +74,15 @@
 .home-right {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: flex-start;
 }
 
 .home-right .image-container {
   width: 400px; /* Increase width */
   height: 400px; /* Increase height */
   background-color: #007BFF;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: circle(40%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,15 +95,15 @@
 }
 
 /* Media query for smaller screens */
-@media (min-width: 769px) {
+@media (max-width: 890px) {
   .home {
-    flex-direction: row; /* Align sections horizontally on larger screens */
+    flex-direction: column; /* Align sections horizontally on larger screens */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 890px) {
   .home-left {
-    font-size: 2rem; /* Adjust tagline size for smaller screens */
+    font-size: 0.8rem; /* Adjust tagline size for smaller screens */
   }
 
   .image-container {

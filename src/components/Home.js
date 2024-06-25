@@ -8,10 +8,12 @@ const Home = () => {
       <div className="home-left">
         <h1>
           Hi,<br />
-          I'm <span className="highlight">My Name</span><br />
-          Web Designer
+          I'm <span className="highlight">Mohit</span><br />
+          AI Developer
         </h1>
-        <button className="contact-button">Contact</button>
+        <div className="centered-button">
+          <a href="#contact" className="contact-button">Contact Me</a>
+        </div>
         <div className="social-links">
           <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
@@ -20,6 +22,7 @@ const Home = () => {
             <i className="fab fa-github"></i>
           </a>
         </div>
+        
       </div>
       <div className="home-right">
         <div className="image-container">

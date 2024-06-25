@@ -1,50 +1,68 @@
-/* src/components/Home.css */
+
+#home {
+  padding-top: 0px;
+}
+
 .home {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 20px;
-  height: 100vh;
-  background-color: #f4f4f4;
-  margin-top: 0; /* Remove top margin to eliminate gap */
+  height: 90vh;
+  background-color: #f0f0f0;
+  margin: 0; /* Remove top margin to eliminate gap */
 }
+
 
 .home-left {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center; /* Center text horizontally */
+  justify-content: center;/* Center text horizontally */
+  margin-left: 0px;
+  padding-left: 100px;
 }
 
 .home-left h1 {
-  font-size: 4em; /* Increase font size */
+  font-size: 6em; /* Increase font size */
   font-weight: bold;
   line-height: 1.2;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .home-left .highlight {
   color: #007BFF; /* Highlight color */
 }
 
-.home-left .contact-button {
+.centered-button {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.contact-button {
   margin-top: 20px;
-  padding: 10px 20px; /* Adjust padding to make the button fit the text */
+  padding: 10px; /* Adjust padding to make the button fit the text */
   background-color: #007BFF;
   color: white;
-  border: none;
+  text-decoration: none;
   cursor: pointer;
   font-size: 1.2em; /* Adjust font size */
   border-radius: 5px;
-  width: auto; /* Ensure the button width fits the text */
+  width: 30%; /* Ensure the button width fits the text */
 }
 
+
 .home-left .social-links {
-  margin-top: 20px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
 }
 
 .home-left .social-links a {
-  margin-right: 15px;
+  margin-right: 35px;
   color: black;
   font-size: 1.5em;
 }
@@ -74,4 +92,22 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Media query for smaller screens */
+@media (min-width: 769px) {
+  .home {
+    flex-direction: row; /* Align sections horizontally on larger screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .home-left {
+    font-size: 2rem; /* Adjust tagline size for smaller screens */
+  }
+
+  .image-container {
+    width: 200px; /* Adjust image size for smaller screens */
+    height: 200px;
+  }
 }

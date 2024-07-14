@@ -26,7 +26,7 @@ const NavigationBar = () => {
   return (
     <nav className="navbar">
         <div className="navbar-left">
-          <h1>My Name</h1>
+          <h1>Mohit</h1>
         </div>
         <div className="navbar-right">
           <ul>

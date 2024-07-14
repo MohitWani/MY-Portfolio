@@ -4,12 +4,14 @@ import './About.css';
 
 const About = () => {
   return (
-    <section id="about">
-      <h2>About Me</h2>
+    <section className="about-container" id="about">
+      <h2 className="about-title">About Me</h2>
       <p>Hello! I'm [Your Name], a passionate web developer with experience in creating dynamic and responsive websites using React.</p>
-      <p>I love coding, learning new technologies, and solving problems. In my spare time, I enjoy reading tech blogs, participating in coding challenges, and contributing to open source projects.</p>
+      <p className="about-description">I love coding, learning new technologies, and solving problems. In my spare time, I enjoy reading tech blogs, participating in coding challenges, and contributing to open source projects.</p>
     </section>
   );
 };
 
 export default About;
+
+

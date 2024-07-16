@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { GrDocker } from "react-icons/gr";
 import {
   SiVisualstudiocode,
   SiGithub,
-  SiFlask,
+  SiKubernetes,
   SiLinux,
   SiWindows11,
 } from "react-icons/si";
@@ -24,7 +25,10 @@ function Toolstack() {
         <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFlask />
+        <GrDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
       </Col>
     </Row>
   );

@@ -13,7 +13,7 @@ import {
   SiNumpy,
   SiPytorch,
   SiOpenai,
-  SiGithub,
+  SiFlask,
   SiAmazonaws,
   SiPandas,
   SiMysql,
@@ -56,7 +56,7 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />

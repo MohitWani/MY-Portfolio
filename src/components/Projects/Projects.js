@@ -26,7 +26,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="ScholarQuery"
-              description="Under Work"
+              description="ScholarQuery is solution for college students to get quick, accurate summaries and information from research papers, 
+              significantly reducing the time required for literature review and it Leverage Advance Retrieval Augmented Generation (RAG)."
               ghLink="https://github.com/MohitWani/ScholarQuery"
               demoLink="https://github.com/MohitWani/ScholarQuery"
             />

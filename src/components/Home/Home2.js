@@ -38,7 +38,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Tensorflow</b> and
+              with <b className="purple">Multi-Agents</b> and
               <i>
                 <b className="purple">
                   {" "}

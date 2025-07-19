@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Pune, India.</span>
             <br />
             <br />
-            I have work experience as a AI Engineer at Rudra Research and Analytics and Machine Learning Engineer at Feynn Labs.
+            I have work experience as a AI Engineer at IndexNine Technology and Machine Learning Intern at Rudra Research and Analytics.
             <br />
             I am also part of 2022-23 Google Developers Student Club as Machine Learning Lead.
             <br />
@@ -24,7 +24,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Blog Writing
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading Research Papers.
